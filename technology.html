@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8/">
+        <meta name="viewport" content="width=device-width, initial-scale1.0">
+        <title>Technology News</title>
+        <link rel="stylesheet" href="../static/css/style.css"/>
+    </head>
+    <body data-category="technology">
+        <header>
+            <div class="logo">Janta Bulletin</div>
+            <ul class="nav-links">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="politics.html">Politics</a></li>
+               <li><a href="technology.html">Technology</a></li>
+               <li><a href="sports.html">Sports</a></li>
+               <li><a href="health.html">Health</a></li>
+               <li><a href="business.html">Business</a></li>
+               <li><a href="contact.html">Contact</a></li>  
+            </ul>
+            <div class="actions">
+                <input type="text" id="search-box" placeholder="Search news..."/>
+                <button id="toggle-dark">🌙</button>
+            </div>
+        </header>
+
+        <div class="breaking-news">
+            <span class="breaking-label">🔴 Breaking:</span>
+            <div class="scrolling-headlines">
+                <div id="breaking-scroll"></div>
+            </div>
+        </div>
+
+        <main>
+            <div id="news-container" class="news-container"></div>
+        </main>
+
+        <footer>
+            <div class="footer-content"></div>
+            <p>&copy; 2025 Janta Bulletin. All rigts reserved.</p>
+            <nav>
+                <a href="#">About</a>
+                   <a href="#">Contact</a>
+                      <a href="#">Privvacy Policy</a>
+            </nav>
+        </footer>
+
+        <script src="../static/js/script.js"></script>
+    </body>
+</html>

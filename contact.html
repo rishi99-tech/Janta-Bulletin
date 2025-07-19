@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Janta Bulletin</title>
+  <link rel="stylesheet" href="../static/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Janta Bulletin</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="politics.html">Politics</a></li>
+      <li><a href="sports.html">Sports</a></li>
+      <li><a href="technology.html">Technology</a></li>
+      <li><a href="health.html">Health</a></li>
+      <li><a href="business.html">Business</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="actions">
+      <input type="text" id="search-box" placeholder="Search news..." />
+      <button id="toggle-dark" title="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <section class="breaking-news">
+    <span class="breaking-icon">🔴</span>
+    <div id="breaking-scroll">Loading headlines...</div>
+  </section>
+
+  <main class="contact-section" style="padding: 30px 20px; max-width: 700px; margin: auto;">
+    <h2>Contact Us</h2>
+    <p>If you have any queries, feedback, or want to report news, feel free to reach out using the form below:</p>
+    <form class="contact-form" style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+      <input type="text" placeholder="Your Name" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
+      <input type="email" placeholder="Your Email" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
+      <textarea placeholder="Your Message" rows="6" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;"></textarea>
+      <button type="submit" style="padding: 12px; background-color: #1E3A8A; color: white; border: none; border-radius: 5px; font-weight: bold;">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Janta Bulletin. All rights reserved.</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../static/js/script.js" defer></script>
+</body>
+</html>

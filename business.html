@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business - Janta Bulletin</title>
+  <link rel="stylesheet" href="../static/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Janta Bulletin</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="politics.html">Politics</a></li>
+      <li><a href="sports.html">Sports</a></li>
+      <li><a href="technology.html">Technology</a></li>
+      <li><a href="health.html">Health</a></li>
+      <li><a href="business.html">Business</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="actions">
+      <input type="text" id="search-box" placeholder="Search news..." />
+      <button id="toggle-dark" title="Toggle dark mode">🌓</button>
+    </div>
+  </header>
+
+  <section class="breaking-news">
+    <span class="breaking-icon">🔴</span>
+    <div id="breaking-scroll">Loading headlines...</div>
+  </section>
+
+  <main>
+    <div id="news-container" class="news-container" data-category="business"></div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Janta Bulletin. All rights reserved.</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../static/js/script.js" defer></script>
+</body>
+</html>
